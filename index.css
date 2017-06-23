@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 50px;
+  min-width: 250px;
+}
+
+h1 {
+  text-align: left;
+}
+.js-item-container {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 20px;
+  padding-bottom: 14px;
+  margin-top: 20px;
+}
+.js-item-name {
+  color: gray;
+  font-style: italic;
+  font-size: 20px; 
+  padding-bottom: 16px;
+}
+.js-item-controls {
+  padding-bottom: 7px;
+}
+.js-check-item {
+  margin-right: 5px;
+} 
+.check-item {
+  text-decoration: line-through;
+}

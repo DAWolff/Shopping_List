@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Shopping List</title> 
+<!-- Responsive viewport tag, tells small screens that it's responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive Shopping List">
+<!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<!--Stylesheets-->
+  <!-- Normalize.css, reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css" />
+  </head>
+  
+  <body>
+      <main role='main'> 
+        <h1>Shopping List</h1>
+        <br>
+        <form id='add-Frm' >
+          <label for="add-item">Add an item </label>
+          <input id="add-item" name="add-item" type="text" placeholder="e.g., broccoli" required />
+          <input id='add-Btn' type="submit" value="Add item" />
+          <br> 
+          <div class="js-container-area"></div>
+        </form>
+      </main>
+<!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>
